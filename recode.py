@@ -21,6 +21,9 @@ from langchain.prompts import PromptTemplate
 load_dotenv()
 groq_api_key = os.getenv("GROQ_API_KEY")
 
+if not groq_api_key:
+    raise RuntimeError("GROQ_API_KEY is not set. Please add it to your .env file.")
+
 # Initialize Groq LLM once at the top
 llm = ChatGroq(temperature=0.3, model_name="llama3-70b-8192")
 
