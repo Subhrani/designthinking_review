@@ -1,0 +1,17 @@
+langchain-community
+langchain-huggingface
+langchain-groq
+python-docx
+python-dotenv
+faiss-cpu
+sentence-transformers
+flask
+flask-cors
+python-dotenv
+python-docx
+langchain
+langchain-community
+langchain-huggingface
+langchain-groq
+faiss-cpu
+pypdf
